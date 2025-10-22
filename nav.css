@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    border: #001d0c 100px;
+    background-color: #06612c;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    transform: all 5s ease;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar a:hover {
+    color: #ffcc00;               /* change color */
+    transform: scale(1.2);        /* expand */
+    
+}
+body{
+    background-image: url(Pictures/Adamjee_Cantonment_Public_School.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,50 @@
+.notice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.notice-box {
+    background-color: #06612c;
+    color: white;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, background-color 0.4s ease;
+    position: relative;
+}
+
+.notice-box:hover {
+    transform: scale(1.02);
+    background-color: #0a803e;
+}
+
+.notice-box h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.notice-date {
+    font-size: 0.9em;
+    color: #c2f0d0;
+    margin-bottom: 10px;
+}
+
+.notice-text {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Optional: add "read more" hover effect */
+.notice-box:hover .notice-text {
+    max-height: 500px; /* can adjust if needed */
+}
+#nigga{
+    width: 600px;
+    height: auto;
+}

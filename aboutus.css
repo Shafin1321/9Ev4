@@ -1,0 +1,75 @@
+/* Boxes common styling */
+.box1, .box2, .box3 {
+    background-size: cover;
+    background-position: center;
+    height: 535px;
+    width: 800px;
+    margin: 40px auto;
+    border-radius: 30px;
+    transition: transform 0.6s ease;
+    position: relative;
+}
+
+#innerbox1, #innerbox2, #innerbox3 {
+    display: block;
+    background-color: #06612c;
+    height: 10%;
+    width: 98.2%;
+    position: absolute;
+    text-align: center;
+    border-radius: 38px;
+    padding: 7px;
+    transition: all 0.5s ease;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+    transform: scale(1.05);
+}
+
+.box1:hover #innerbox1,
+.box2:hover #innerbox2,
+.box3:hover #innerbox3 {
+    height: 50%;
+}
+
+.hover-text1, .hover-text2, .hover-text3 {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    margin-top: 10px;
+}
+
+.box1:hover .hover-text1,
+.box2:hover .hover-text2,
+.box3:hover .hover-text3 {
+    opacity: 1;
+}
+
+/* Individual box backgrounds */
+.box1 { background-image: url('https://acps-c53.s3.us-east-2.amazonaws.com/dws/2025/gallery/Image_12.jpg_03-07-2025-07-34-23_s.jpg'); }
+.box2 { background-image: url('Pictures/kamrul Daddy.jpeg'); }
+.box3 { background-image: url('https://acps-c53.s3.us-east-2.amazonaws.com/dws/2025/gallery/Image_5.JPG_24-09-2025-04-14-14_s.JPG'); }
+
+/* Photo gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

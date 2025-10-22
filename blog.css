@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(Pictures/Adamjee_Cantonment_Public_School.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #06612c;
+  padding: 15px 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;
+}
+
+#posts, #category-posts {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.post {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
